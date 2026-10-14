@@ -1,0 +1,390 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="BRVP RP ENTERPRISES - Electronics, Furniture और Household Items. बेनीपट्टी और आसपास के क्षेत्रों के लिए।">
+  <title>BRVP RP ENTERPRISES | आपका अपना शोरूम</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="announcement">
+    <span>✦</span> आपकी जरूरत का हर सामान, एक ही जगह!
+    <span class="announcement-location">बेनीपट्टी और आसपास डिलीवरी</span>
+  </div>
+
+  <header class="navbar">
+    <a class="brand" href="#home">
+      <span class="brand-mark">B<span>R</span></span>
+      <span class="brand-copy">
+        <strong>BRVP RP</strong>
+        <small>ENTERPRISES</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="मेन्यू खोलें" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">होम</a>
+      <a href="#categories">कैटेगरी</a>
+      <a href="#products">प्रोडक्ट्स</a>
+      <a href="#about">हमारे बारे में</a>
+      <a href="#contact">संपर्क</a>
+    </nav>
+
+    <a class="nav-cta" href="#products">सामान देखें ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+
+      <div class="hero-content reveal">
+        <div class="eyebrow">
+          <span class="live-dot"></span>
+          YOUR LOCAL SHOPPING DESTINATION
+        </div>
+
+        <h1>
+          घर की हर जरूरत,<br>
+          <span>अब एक ही जगह।</span>
+        </h1>
+
+        <p class="hero-description">
+          Electronics से Furniture तक और रोजमर्रा के घरेलू सामान तक —
+          BRVP RP ENTERPRISES में आपका स्वागत है।
+        </p>
+
+        <div class="hero-actions">
+          <a href="#products" class="button button-gold">
+            प्रोडक्ट्स देखें <span>↗</span>
+          </a>
+          <a href="https://wa.me/917004196826"
+             class="button button-outline" target="_blank"
+             rel="noopener noreferrer">
+            WhatsApp करें
+          </a>
+        </div>
+
+        <div class="hero-points">
+          <span>✓ स्थानीय दुकान</span>
+          <span>✓ आसान संपर्क</span>
+          <span>✓ आसपास डिलीवरी</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="hero-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85"
+            alt="आधुनिक घर का इंटीरियर"
+            fetchpriority="high">
+          <div class="image-shade"></div>
+          <div class="floating-card floating-top">
+            <span class="floating-icon">✦</span>
+            <div>
+              <strong>Quality & Convenience</strong>
+              <small>आपकी जरूरत, हमारी प्राथमिकता</small>
+            </div>
+          </div>
+          <div class="floating-card floating-bottom">
+            <span class="location-icon">⌖</span>
+            <div>
+              <strong>हम आपके पास हैं</strong>
+              <small>उचैठ, बेनीपट्टी, बिहार</small>
+            </div>
+          </div>
+        </div>
+        <div class="hero-orbit orbit-one"></div>
+        <div class="hero-orbit orbit-two"></div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><strong>03</strong><span>प्रमुख कैटेगरी</span></div>
+      <div><strong>LOCAL</strong><span>आपकी अपनी दुकान</span></div>
+      <div><strong>EASY</strong><span>सीधा WhatsApp संपर्क</span></div>
+    </section>
+
+    <section class="section categories-section" id="categories">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">EXPLORE OUR STORE</span>
+          <h2>हमारी <span>कैटेगरी</span></h2>
+        </div>
+        <p>अपनी जरूरत के अनुसार कैटेगरी चुनें और उपलब्ध सामान के बारे में पूछें।</p>
+      </div>
+
+      <div class="category-grid">
+        <button class="category-card reveal" data-category="electronics">
+          <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=700&q=80"
+               alt="इलेक्ट्रॉनिक्स और टीवी" loading="lazy">
+          <span class="category-number">01 / CATEGORY</span>
+          <span class="category-name">Electronics</span>
+          <span class="category-hindi">इलेक्ट्रॉनिक्स एवं होम अप्लायंसेज़</span>
+          <span class="category-arrow">↗</span>
+        </button>
+
+        <button class="category-card reveal" data-category="furniture">
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80"
+               alt="फर्नीचर और सोफा" loading="lazy">
+          <span class="category-number">02 / CATEGORY</span>
+          <span class="category-name">Furniture</span>
+          <span class="category-hindi">फर्नीचर</span>
+          <span class="category-arrow">↗</span>
+        </button>
+
+        <button class="category-card reveal" data-category="household">
+          <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=700&q=80"
+               alt="किचन और घरेलू सामान" loading="lazy">
+          <span class="category-number">03 / CATEGORY</span>
+          <span class="category-name">Household</span>
+          <span class="category-hindi">प्लास्टिक एवं घरेलू सामान</span>
+          <span class="category-arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+    <section class="section products-section" id="products">
+      <div class="section-heading reveal">
+        <div>
+          <span class="section-kicker">OUR COLLECTION</span>
+          <h2>हमारे <span>प्रोडक्ट्स</span></h2>
+        </div>
+        <p>पसंद का सामान चुनें। कीमत और उपलब्धता के लिए सीधे हमसे संपर्क करें।</p>
+      </div>
+
+      <div class="product-controls reveal">
+        <div class="filter-list" aria-label="प्रोडक्ट फिल्टर">
+          <button class="filter-btn active" data-filter="all">सभी</button>
+          <button class="filter-btn" data-filter="electronics">Electronics</button>
+          <button class="filter-btn" data-filter="furniture">Furniture</button>
+          <button class="filter-btn" data-filter="household">Household</button>
+        </div>
+
+        <input id="productSearch" type="search"
+          placeholder="सामान खोजें..." aria-label="प्रोडक्ट खोजें">
+      </div>
+
+      <div class="product-grid" id="productGrid">
+
+        <article class="product-card reveal" data-category="electronics" data-name="टेलीविजन टीवी television">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=650&q=80"
+                 alt="टेलीविजन" loading="lazy">
+            <span class="product-tag">Electronics</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">HOME ENTERTAINMENT</span>
+            <h3>टेलीविजन (TV)</h3>
+            <p>अलग-अलग मॉडल और स्क्रीन साइज के बारे में पूछें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="टेलीविजन (TV)">↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="electronics" data-name="फ्रिज रेफ्रिजरेटर refrigerator fridge">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=650&q=80"
+                 alt="फ्रिज" loading="lazy">
+            <span class="product-tag">Electronics</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">HOME APPLIANCES</span>
+            <h3>फ्रिज (Refrigerator)</h3>
+            <p>साइज, ब्रांड और उपलब्ध मॉडल की जानकारी लें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="फ्रिज (Refrigerator)">↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="electronics" data-name="वाशिंग मशीन washing machine">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=650&q=80"
+                 alt="वॉशिंग मशीन" loading="lazy">
+            <span class="product-tag">Electronics</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">HOME APPLIANCES</span>
+            <h3>वॉशिंग मशीन</h3>
+            <p>उपलब्ध मॉडल और सुविधाओं की जानकारी लें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="वॉशिंग मशीन">↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="furniture" data-name="सोफा sofa">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=650&q=80"
+                 alt="सोफा सेट" loading="lazy">
+            <span class="product-tag">Furniture</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">LIVING ROOM</span>
+            <h3>सोफा सेट</h3>
+            <p>डिजाइन, साइज और उपलब्धता के बारे में पूछें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="सोफा सेट">↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="furniture" data-name="बेड पलंग bed">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=650&q=80"
+                 alt="बेडरूम फर्नीचर" loading="lazy">
+            <span class="product-tag">Furniture</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">BEDROOM</span>
+            <h3>बेड एवं पलंग</h3>
+            <p>साइज, डिजाइन और कीमत की जानकारी लें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="बेड एवं पलंग">↗</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="product-card reveal" data-category="household" data-name="किचन घरेलू सामान kitchen">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=650&q=80"
+                 alt="किचन का सामान" loading="lazy">
+            <span class="product-tag">Household</span>
+          </div>
+          <div class="product-info">
+            <span class="product-category">DAILY ESSENTIALS</span>
+            <h3>किचन एवं घरेलू सामान</h3>
+            <p>रोजमर्रा की जरूरतों के सामान के बारे में पूछें।</p>
+            <div class="product-bottom">
+              <strong>कीमत पूछें</strong>
+              <button class="order-btn" data-product="किचन एवं घरेलू सामान">↗</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <p id="noResults" class="no-results" hidden>कोई सामान नहीं मिला। दूसरा नाम खोजें।</p>
+
+      <p class="catalog-note">
+        नोट: यहाँ दिखाई गई तस्वीरें उदाहरण के लिए हैं। वास्तविक स्टॉक, ब्रांड और कीमत की पुष्टि दुकान से करें।
+      </p>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="about-image reveal">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+             alt="आधुनिक घर का इंटीरियर" loading="lazy">
+        <div class="about-image-caption">
+          <span>BRVP RP ENTERPRISES</span>
+          <small>आपकी अपनी स्थानीय दुकान</small>
+        </div>
+      </div>
+
+      <div class="about-content reveal">
+        <span class="section-kicker">ABOUT OUR STORE</span>
+        <h2>आपकी जरूरत,<br><span>हमारा साथ।</span></h2>
+        <p>
+          BRVP RP ENTERPRISES में आपका स्वागत है।
+          हमारा उद्देश्य Electronics, Furniture और घरेलू सामान
+          के बारे में जानकारी प्राप्त करना और खरीदारी को आसान बनाना है।
+        </p>
+        <div class="about-feature">
+          <span>01</span>
+          <div><strong>एक ही जगह कई कैटेगरी</strong><small>घर और रोजमर्रा की जरूरतों के लिए।</small></div>
+        </div>
+        <div class="about-feature">
+          <span>02</span>
+          <div><strong>सीधा संपर्क</strong><small>उत्पाद की कीमत और उपलब्धता पूछें।</small></div>
+        </div>
+        <a href="#contact" class="button button-gold">हमसे संपर्क करें ↗</a>
+      </div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-card reveal">
+        <div class="contact-copy">
+          <span class="section-kicker">LET'S CONNECT</span>
+          <h2>कुछ पूछना है?<br><span>हमसे बात करें।</span></h2>
+          <p>प्रोडक्ट, कीमत या स्थानीय डिलीवरी के बारे में जानकारी के लिए संपर्क करें।</p>
+
+          <a class="button button-gold"
+             href="https://wa.me/917004196826"
+             target="_blank" rel="noopener noreferrer">
+            WhatsApp पर बात करें ↗
+          </a>
+        </div>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <div>
+              <small>हमारा पता</small>
+              <strong>मलहा मोड़, उचैठ, बेनीपट्टी, बिहार</strong>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">☎</span>
+            <div>
+              <small>संपर्क नंबर 1</small>
+              <a href="tel:7004196826">7004196826</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">☎</span>
+            <div>
+              <small>संपर्क नंबर 2</small>
+              <a href="tel:7209943288">7209943288</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">↗</span>
+            <div>
+              <small>डिलीवरी क्षेत्र</small>
+              <strong>बेनीपट्टी और आसपास</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">B<span>R</span></span>
+      <span class="brand-copy">
+        <strong>BRVP RP</strong>
+        <small>ENTERPRISES</small>
+      </span>
+    </a>
+    <p>आपकी जरूरत का हर सामान, एक ही जगह!</p>
+    <span class="copyright">© <span id="year"></span> BRVP RP ENTERPRISES. All rights reserved.</span>
+  </footer>
+
+  <a class="floating-whatsapp"
+     href="https://wa.me/917004196826"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="WhatsApp पर संपर्क करें">✆</a>
+
+</body>
+</html>
